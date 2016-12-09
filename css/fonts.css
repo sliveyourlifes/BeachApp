@@ -1,0 +1,42 @@
+/*Helvitica*/
+@font-face {
+    font-family: "Helvetica";
+    src: url('../fonts/Helvetica.ttf');
+    src: url('../fonts/Helvetica.ttf') format('truetype');
+    src: url('../fonts/Helvetica.woff');
+    src: url('../fonts/Helvetica.woff') format('woff');
+}
+
+/*Helvetica_bd*/
+@font-face {
+    font-family: "Helvetica_bd";
+    src: url('../fonts/Helvetica_bd.ttf');
+    src: url('../fonts/Helvetica_bd.ttf') format('truetype');
+    src: url('../fonts/Helvetica_bd.woff');
+    src: url('../fonts/Helvetica_bd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Helvetica_bd_cn*/
+@font-face {
+    font-family: "Helvetica_bd_cn";
+    src: url('../fonts/Helvetica_bd_cn.ttf');
+    src: url('../fonts/Helvetica_bd_cn.ttf') format('truetype');
+    src: url('../fonts/Helvetica_bd_cn.woff');
+    src: url('../fonts/Helvetica_bd_cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Helvetica_it*/
+@font-face {
+    font-family: "Helvetica_it";
+    src: url('../fonts/Helvetica_it.ttf');
+    src: url('../fonts/Helvetica_it.ttf') format('truetype');
+    src: url('../fonts/Helvetica_it.woff');
+    src: url('../fonts/Helvetica_it.woff') format('woff');
+    font-weight: normal;
+    font-style:normal;
+}
+

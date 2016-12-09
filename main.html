@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beach</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+<div class="beach-title">
+    <div class="main-content" id="content">
+
+        <div class="banner-text">
+            <img src="images/bannerText.png" alt="banner text" width="1162px" usemap="#triangle">
+            <map name="triangle">
+                <area shape="poly" coords="1067,40,1067,100,1119,70" alt="Sun" id="banner">
+            </map>
+        </div>
+
+        <div class="logo">
+            <img src="images/hourse.png" width="80%" alt="logo">
+        </div>
+
+        <div class="address">
+            <span>Melnikayte str. 4, Minsk, Belarus</span>
+            <div>
+                <span>June 2015</span>
+            </div>
+        </div>
+
+        <div class="text">
+            <ul>
+                <li>Prescribing information</li>
+                <li>References</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <table class="table" id="table">
+
+        <tr>
+            <td class="table-text"> Cтартовое Значение</td>
+            <td><input class="input" type="number" id="start" value="0"></td>
+        </tr>
+        <tr>
+            <td class="table-text">Процент</td>
+            <td><input class="input" type="number" id="percent" value="0"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Предсказанное Значение</td>
+        </tr>
+        <tr>
+            <td>Месяц 1</td>
+            <td><span id="month1"></span></td>
+        </tr>
+        <tr>
+            <td>Месяц 2</td>
+            <td><span id="month2"></span></td>
+        </tr>
+        <tr>
+            <td>Месяц 3</td>
+            <td><span id="month3"></span></td>
+        </tr>
+    </table>
+
+</div>
+</body>
+</html>

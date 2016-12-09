@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 2048px;
+    height: 1148px;
+    position: relative;
+    overflow:hidden;/*remove scroll*/
+}
+
+.beach-title {
+    background: url("../images/beach_scene.JPG") center center no-repeat fixed;
+    width: 100%; /*2048px*/
+    height: 100%;
+    position: absolute;
+    -khtml-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.main-content {
+    background: #00817B center center no-repeat fixed;
+    width: 94%; /*1940px*/
+    height: 100%;
+    position: absolute;
+    -khtml-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    box-shadow: 14px 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+.banner-text {
+    position: absolute;
+    left: 389px;
+    top: 400px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 75px;
+    left: 154px;
+}
+
+.address {
+    position: absolute;
+    left: 154px;
+    bottom: 15px;
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    right: 154px;
+}
+
+li {
+    display: inline-block;
+    border-right: 3px solid #cccccc;
+    padding-right: 10px;
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #FBAE17;
+}
+
+li:last-child {
+    border-right: none;
+    margin-left: 4px;
+}
+
+.table {
+    display: none;
+    opacity: 0.85;
+    font-family:"Helvetica";
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 0;
+}
+
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    padding: 10px 20px;
+    background: #F8E391;
+}
+
+tr:first-child td:first-child {
+    text-align: left;
+}
+
+tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+
+tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+.table-text {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
